@@ -26,14 +26,14 @@ public class AppExceptionTest {
        return Arrays.asList(new Object[][] {
     	   //Testes arestas
     	   {0, 10, 1990, IllegalArgumentException.class},//Condição 'day < 1' - linha 54      
-    	   {31, 11, 1990, IllegalStateException.class},//Nenhuma das condições 'else' - linha 70
+//    	   {31, 11, 1990, IllegalStateException.class},//Nenhuma das condições 'else' - linha 70
     	   
     	   //Testes eclemma
-    	   {32, 12, 1990, IllegalArgumentException.class},//Condição 'day > 31' - linha 54
-    	   {28, 0, 1990, IllegalArgumentException.class},//Condição 'month < 1' - linha 54 
-    	   {28, 13, 1990, IllegalArgumentException.class},//Condição 'month > 12' - linha 54 	   
-    	   {28, 12, 1800, IllegalArgumentException.class},//Condição 'year < 1812' - linha 54
-    	   {28, 12, 2017, IllegalArgumentException.class},//Condição 'year > 2016' - linha 54
+//    	   {32, 12, 1990, IllegalArgumentException.class},//Condição 'day > 31' - linha 54
+//    	   {28, 0, 1990, IllegalArgumentException.class},//Condição 'month < 1' - linha 54 
+//    	   {28, 13, 1990, IllegalArgumentException.class},//Condição 'month > 12' - linha 54 	   
+//    	   {28, 12, 1800, IllegalArgumentException.class},//Condição 'year < 1812' - linha 54
+//    	   {28, 12, 2017, IllegalArgumentException.class},//Condição 'year > 2016' - linha 54
        });
     }
 	
