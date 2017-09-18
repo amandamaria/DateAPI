@@ -27,14 +27,14 @@ public class AppTest
          { 31, 12, 1990, "1/1/1991"},//Condição 'month == DECEMBER && day == 31' - linha 68
          
          //Testes eclemma
-//         {30, 01, 1990, "31/1/1990"},//Condição 'has31(month) && day < 31' - linha 60
-//         {29, 06, 1990, "30/6/1990"},//Condição 'has30(month) && day < 30' - linha 60
-//         {30, 06, 1990, "1/7/1990"},//Condição 'has30(month) && day < 30' - linha 60
-//         {28, 02, 2016, "29/2/2016"},//Condição 'isFebruary(month) && isLeapYear(year) && day == 28' - linha 61
-//         {28, 02, 2000, "29/2/2000"},//Condição 'year % 400 == 0' do método isLeapYear - linha 44
-//         {28, 02, 2005, "1/3/2005"},//Condição 'year % 4 != 0' do método isLeapYear - linha 42
-//         {28, 02, 1900, "1/3/1900"},//Condição 'year % 100 == 0' do método isLeapYear - linha 46
-//         {28, 12, 1900, "29/12/1900"},//Condição 'month == DECEMBER' do método has31 - linha 46
+         {30, 01, 1990, "31/1/1990"},//Condição 'has31(month) && day < 31' - linha 60
+         {29, 06, 1990, "30/6/1990"},//Condição 'has30(month) && day < 30' - linha 60
+         {30, 06, 1990, "1/7/1990"},//Condição 'has30(month) && day == 30' - linha 64
+         {28, 02, 2016, "29/2/2016"},//Condição 'isFebruary(month) && isLeapYear(year) && day == 28' - linha 61
+         {28, 02, 2000, "29/2/2000"},//Condição 'year % 400 == 0' do método isLeapYear - linha 44
+         {28, 02, 2005, "1/3/2005"},//Condição 'year % 4 != 0' do método isLeapYear - linha 42
+         {28, 02, 1900, "1/3/1900"},//Condição 'year % 100 == 0' do método isLeapYear - linha 46
+         {28, 12, 1900, "29/12/1900"},//Condição 'month == DECEMBER' do método has31 - linha 34
       });
     }
 	
