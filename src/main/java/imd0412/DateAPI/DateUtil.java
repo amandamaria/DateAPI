@@ -16,14 +16,18 @@ public class DateUtil {
 
 	private static final Set<Integer> months30;
 
-	private static final Integer DECEMBER = 12;
+	private static final Integer DECEMBER;
 
-	private static final String dateFormat = "%s/%s/%s";
+	private static final String dateFormat;
 	
 	static {
 		months31 = new HashSet<Integer>(Arrays.asList(1, 3, 5, 7, 8, 10));
 
 		months30 = new HashSet<Integer>(Arrays.asList(4, 6, 9, 11));
+		
+		DECEMBER = 12;
+		
+		dateFormat = "%s/%s/%s";
 	}
 	
 	private static boolean has30(int month) {
